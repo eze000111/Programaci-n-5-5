@@ -7,7 +7,7 @@ int main() {
     int A = 0, B = 0;
 
     for (int i = 0; i < 5; i++) {
-        cout << "¿Cuál es la altura de la persona " << i + 1 << "? (en metros): ";
+        cout << "Â¿CuÃ¡l es la altura de la persona " << i + 1 << "? (en metros): ";
         cin >> alturas[i];
         suma += alturas[i];
     }
@@ -22,8 +22,8 @@ int main() {
             B++;
     }
 
-    cout << "Personas más altas que el promedio: " << A << endl;
-    cout << "Personas más bajas que el promedio: " << B << endl;
+    cout << "Personas mÃ¡s altas que el promedio: " << A << endl;
+    cout << "Personas mÃ¡s bajas que el promedio: " << B << endl;
 
     return 0;
 }
